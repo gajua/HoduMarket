@@ -1,7 +1,6 @@
-import React from 'react'
-
+import React from "react";
 export default function home() {
-  return (
-    <div>home</div>
-  )
+  return <div>
+    홈페이지 입니다zzz
+  </div>;
 }

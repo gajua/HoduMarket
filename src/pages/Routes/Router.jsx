@@ -13,12 +13,12 @@ export default function Router() {
     <BrowserRouter>
       <Routes>
         <Route>
-          <Route path="/home" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/login" element={<Login />} />
           <Route path="/shoppingcart" element={<ShoppingCart />} />
           <Route path="/signup" element={<Signup />} />
           <Route path="/payment" element={<Payment />} />
-          <Route path="/post/:post_id" element={<ProductDetail />} />
+          <Route path="/pruduct/:product_id" element={<ProductDetail />} />
           <Route path="/*" element={<NotFound />} />
         </Route>
       </Routes>

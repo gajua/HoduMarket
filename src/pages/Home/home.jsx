@@ -1,9 +1,12 @@
 import React from "react";
 import Header from "../../components/Header/Header";
+import ProductList from "./ProductList";
 
 export default function home() {
-  return <div>
-    <Header/>
-    홈페이지 입니다zzz
-  </div>;
+  return (
+    <div>
+      <Header />
+      <ProductList />
+    </div>
+  );
 }
